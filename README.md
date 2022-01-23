@@ -17,6 +17,8 @@ $ ng serve -o
 ## Convention pour les commits
 ```
 <type>: <description>
+
+/!\ Ne pas écrire la description avec des accents, soyez brefs aussi !
 ```
 ### Type
 ```
