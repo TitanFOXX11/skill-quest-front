@@ -32,3 +32,7 @@ refactor: un changement dans le code qui n'apporte pas de nouvelle fonctionnalit
 style: changement qui n'affecte pas le fonctionnent du code (ex: espace, formattage de code, points-virgules manquants, etc)
 Test: ajout ou correction de tests
 ```
+## Liens utiles
+```
+Angular Flexbox : https://github.com/angular/flex-layout/wiki/API-Documentation
+```
