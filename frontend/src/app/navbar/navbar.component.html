@@ -1,11 +1,10 @@
-<mat-toolbar role="heading" color="primary">
-    <mat-toolbar-row class="logo" fxLayout="column" fxLayoutAlign="center center">
-        <span>Skill Quest</span>
-    </mat-toolbar-row>
-    <mat-toolbar-row class="toolbar" fxLayoutAlign="center center">
-        <a mat-button href="#">Le concept</a>
-        <a mat-button href="#">Les tarifs</a>
-        <a mat-button href="#">Découvrir l'équipe</a>
-        <a mat-raised-button fxFlexOffset="5%" href="#">Se connecter</a>
-    </mat-toolbar-row>
+<mat-toolbar role="heading" color="primary" class="toolbar">
+    <div class="logo"></div>
+    <div class="nav-links">
+      <a mat-button routerLink="concept">Le concept</a>
+      <a mat-button routerLink="prices">Les tarifs</a>
+      <a mat-button routerLink="about-us">Découvrir l'équipe</a>
+    </div>
+    <a mat-raised-button routerLink="sign-in" class="sign-in-btn">Se connecter</a>
 </mat-toolbar>
+<router-outlet></router-outlet>
