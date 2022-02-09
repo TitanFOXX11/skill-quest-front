@@ -34,5 +34,5 @@ Test: ajout ou correction de tests
 ```
 ## Liens utiles
 ```
-Angular Flexbox : https://github.com/angular/flex-layout/wiki/API-Documentation
+
 ```
