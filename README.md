@@ -7,7 +7,7 @@ Présentation visuelle de Skill Quest, Accès API BACK
 ```
 Node             16.13.2
 Npm              8.1.2
-Angular          13.2.2 
+Angular CLI      13.1.4 
 Angular Material 13.2.2
 ```
 ## Installation
