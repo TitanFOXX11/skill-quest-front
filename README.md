@@ -1,4 +1,6 @@
 # Skill Quest : Front
+# /!\ A lire avant de faire quoi que ce soit /!\
+
 ## Description
 Présentation visuelle de Skill Quest, Accès API BACK
 ## Langage
@@ -12,6 +14,18 @@ $ git clone https://github.com/Skill-Quest-AL3C/skill-quest-front.git
 $ cd skill-quest-front
 $ npm install
 $ ng serve -o
+```
+***
+## Compréhension des dossiers
+Components : Les vues (pages) du site
+```
+// créer un composant
+$ ng g c nomducomposant
+```
+Services : Contient les classes permettant de faire les appels à l'API
+```
+// créer un service
+$ ng g s nomduservice
 ```
 ***
 ## Convention pour les commits
