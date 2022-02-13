@@ -51,5 +51,6 @@ Test: ajout ou correction de tests
 ```
 ## Liens utiles
 ```
+Installer les outils : https://www.ganatan.com/tutorials/demarrer-avec-angular
 Comprendre l'organisation des branches du git : https://www.atlassian.com/fr/git/tutorials/comparing-workflows/gitflow-workflow
 ```
