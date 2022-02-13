@@ -5,7 +5,7 @@
 Présentation visuelle de Skill Quest, Accès API BACK
 ## Langage
 ```
-Angular (JS, Typescript)
+Angular (JS, Typescript) + Angular Material
 ```
 ## Installation
 ```
@@ -48,5 +48,5 @@ Test: ajout ou correction de tests
 ```
 ## Liens utiles
 ```
-
+Comprendre l'organisation des branches du git : https://www.atlassian.com/fr/git/tutorials/comparing-workflows/gitflow-workflow
 ```
