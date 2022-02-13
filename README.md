@@ -14,7 +14,7 @@ $ git checkout -b feature_branch
 ```
 $ git merge feature_branch
 ```
-+ d'infos dans les liens utiles en bas de page
+Quand on termine une version, on merge develop sur main
 
 ## Description
 Présentation visuelle de Skill Quest, Accès API BACK
