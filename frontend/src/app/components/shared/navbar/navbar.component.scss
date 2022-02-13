@@ -1,7 +1,7 @@
-$logo-image: "../../assets/logo.png";
+$logo-image: "../../../assets/logo.png";
 
 .toolbar {
-  height: 150px;
+  height: 100px;
   padding: 20px 0px;
   margin-bottom: 100px;
   display: flex;
@@ -13,5 +13,6 @@ $logo-image: "../../assets/logo.png";
     background-image: url($logo-image);
     background-size: contain;
     background-repeat: no-repeat;
+    cursor:  pointer;
   }
 }

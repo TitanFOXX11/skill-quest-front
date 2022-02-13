@@ -1,10 +1,11 @@
 <mat-toolbar role="heading" color="primary" class="toolbar">
-    <div class="logo"></div>
+    <div class="logo" routerLink="home"></div>
     <div class="nav-links">
+      <a mat-button routerLink="home">Accueil</a>
       <a mat-button routerLink="concept">Le concept</a>
       <a mat-button routerLink="prices">Les tarifs</a>
       <a mat-button routerLink="about-us">Découvrir l'équipe</a>
     </div>
-    <a mat-raised-button routerLink="sign-in" class="sign-in-btn">Se connecter</a>
+    <a mat-raised-button routerLink="login" class="login-btn">Se connecter</a>
 </mat-toolbar>
 <router-outlet></router-outlet>
