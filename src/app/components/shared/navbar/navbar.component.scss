@@ -1,11 +1,12 @@
-$logo-image: "../../../assets/logo.png";
+$logo-image: '/assets/logo.png';
 
 .toolbar {
   height: 100px;
-  padding: 20px 0px;
-  margin-bottom: 100px;
+  top: 0;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  position: relative;
+  margin: 0;
 
   .logo {
     width: 94px;
@@ -14,5 +15,15 @@ $logo-image: "../../../assets/logo.png";
     background-size: contain;
     background-repeat: no-repeat;
     cursor:  pointer;
+  }
+}
+
+@media screen and (max-width:700px) {
+  .toolbar {
+    height: 250px;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
   }
 }
