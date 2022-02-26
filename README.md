@@ -12,6 +12,7 @@ $ git checkout -b feature_branch
 ```
 ### QUAND VOUS AVEZ FINI DE DEV SUR FEATURE, ON MERGE ENSUITE SUR DEVELOP
 ```
+$ git checkout develop
 $ git merge feature_branch
 ```
 Quand on termine une version, on merge develop sur main
