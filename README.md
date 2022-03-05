@@ -1,20 +1,22 @@
 # Skill Quest : Front
 # /!\ A lire avant de faire quoi que ce soit /!\
 ## IMPORTANT
-### NE PAS DEVELOPPER SUR LA BRANCHE MAIN MAIS SUR DEVELOP
+### NE PAS DEVELOPPER SUR LA BRANCHE MAIN MAIS SUR UNE BRANCHE FEATURE PROPRE A LA TACHE A FAIRE
+exemple :
 ```
 // après le clone du projet
-$ git checkout develop
+$ git checkout feature_cours
 ```
-### ENSUITE CREER UNE BRANCHE FEATURE SUR LA BRANCHE DEVELOP (C'EST VOTRE BRANCHE PERSO)
+### ENSUITE CREER UNE BRANCHE SUR LA BRANCHE FEATURE (C'EST VOTRE BRANCHE PERSO POUR SI JAMAIS VOUS BOSSER A PLUSIEURS), ATTENTION C'EST PAS UNE BRANCHE PERMANENTE ELLE N'EXISTE PLUS SI VOUS CLONEZ LE PROJET A NOUVEAU OU CHANGEZ DE PC POUR CODER
 ```
 $ git checkout -b feature_branch
 ```
-### QUAND VOUS AVEZ FINI DE DEV SUR FEATURE, ON MERGE ENSUITE SUR DEVELOP
+### QUAND VOUS AVEZ FINI DE DEV SUR FEATURE_BRANCH, ON MERGE ENSUITE SUR FEATURE
 ```
 $ git checkout develop
 $ git merge feature_branch
 ```
+Quand on termine une feature, on merge feature sur develop
 Quand on termine une version, on merge develop sur main
 
 ## Description
