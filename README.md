@@ -16,8 +16,8 @@ $ git checkout -b feature_branch
 $ git checkout develop
 $ git merge feature_branch
 ```
-Quand on termine une feature, on merge feature sur develop
-Quand on termine une version, on merge develop sur main
+- Quand on termine une feature, on merge feature sur develop
+- Quand on termine une version, on merge develop sur main
 
 ## Description
 Présentation visuelle de Skill Quest, Accès API BACK
