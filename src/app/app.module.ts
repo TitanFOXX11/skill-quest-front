@@ -5,14 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FooterComponent } from './components/shared/footer/footer.component';
 import { NavbarComponent } from './components/shared/navbar/navbar.component';
-import { HomeComponent } from './components/home/home.component';
+import { ModulesComponent } from './components/modules/modules.component';
+import { CardComponent } from './components/elements/card/card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FooterComponent,
     NavbarComponent,
-    HomeComponent
+    ModulesComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,

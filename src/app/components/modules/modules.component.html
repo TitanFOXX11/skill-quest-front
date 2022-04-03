@@ -1,0 +1,14 @@
+<div class="p-16">
+    <div *ngFor="let section of sections">
+        <div class="block p-6 rounded-lg max-w-full shadow-md bg-gradient-to-r from-violet-1/75 to-bleu-1/40">
+            <span class="font-title_section text-vert-1 text-4xl">{{ section.name }}</span>
+        </div>
+
+        <!-- TODO: régler le pb des sections-->
+        <div *ngFor="let module of modules_names" class="grid grid-cols-4 my-1">
+            <div *ngIf="module.section_id == section.id" class="block p-4 my-2 max-w-xs max-h-xs rounded-lg shadow-md bg-red-500">
+                <span>{{ module.name }}</span>
+            </div>
+        </div>
+    </div>
+</div>
