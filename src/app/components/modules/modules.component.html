@@ -1,14 +1,47 @@
-<div class="p-16">
-    <div *ngFor="let section of sections">
-        <div class="block p-6 rounded-lg max-w-full shadow-md bg-gradient-to-r from-violet-1/75 to-bleu-1/40">
-            <span class="font-title_section text-vert-1 text-4xl">{{ section.name }}</span>
-        </div>
-
-        <!-- TODO: régler le pb des sections-->
-        <div *ngFor="let module of modules_names" class="grid grid-cols-4 my-1">
-            <div *ngIf="module.section_id == section.id" class="block p-4 my-2 max-w-xs max-h-xs rounded-lg shadow-md bg-red-500">
-                <span>{{ module.name }}</span>
-            </div>
-        </div>
+<div class="p-10">
+  <!-- Section 1 -->
+  <div
+    class="block p-6 max-w-full"
+  >
+    <span class="font-display text-vert-1 text-4xl"
+      >Section 1 - Nom section</span
+    >
+  </div>
+  <div class="flex justify-between mt-4 mb-12">
+    <div class="block p-4 my-2 w-1/5 h-xs align-text-bottom rounded-lg shadow-md ring-2 ring-bleu-1 backdrop-blur-sm bg-white/20">
+      <span>Java</span>
     </div>
+    <div class="block p-4 my-2 w-1/5 h-48 align-text-bottom rounded-lg shadow-md ring-2 ring-vert-1 backdrop-blur-sm bg-white/20">
+      <span>Français</span>
+    </div>
+    <div class="block p-4 my-2 w-1/5 h-xs align-text-bottom rounded-lg shadow-md ring-2 ring-bleu-1 backdrop-blur-sm bg-white/20">
+      <span>Maths</span>
+    </div>
+    <div class="block p-4 my-2 w-1/5 h-xs align-text-bottom rounded-lg shadow-md ring-2 ring-vert-1 backdrop-blur-sm bg-white/20">
+      <span>SVT</span>
+    </div>
+  </div>
+
+  <!-- Section 2 -->
+  <div
+    class="block p-6 max-w-full"
+  >
+    <span class="font-display text-vert-1 text-4xl"
+      >Section 2 - Nom section</span
+    >
+  </div>
+  <div class="flex justify-between mt-4 mb-12">
+    <div class="block p-4 my-2 w-1/5 h-xs rounded-lg ring-2 ring-vert-1 backdrop-blur-sm bg-white/20">
+      <span>Physique-Chimie</span>
+    </div>
+    <div class="block p-4 my-2 w-1/5 h-48 rounded-lg ring-2 ring-bleu-1 backdrop-blur-sm bg-white/20">
+      <span>Course relais</span>
+    </div>
+    <div class="block p-4 my-2 w-1/5 h-xs rounded-lg ring-2 ring-vert-1 backdrop-blur-sm bg-white/20">
+      <span>Intelligence Artificielle</span>
+    </div>
+    <div class="block p-4 my-2 w-1/5 h-xs rounded-lg ring-2 ring-bleu-1 backdrop-blur-sm bg-white/20">
+      <span>Gestion commerciale</span>
+    </div>
+  </div>
 </div>

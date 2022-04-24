@@ -18,6 +18,7 @@ export class ModulesComponent implements OnInit {
     }
   ];
 
+
   modules_names: any[] = [
     {
       "id": "1",
