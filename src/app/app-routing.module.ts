@@ -20,6 +20,9 @@ const routes: Routes = [
   {
     path: 'modules',
     component: ModulesComponent,
+    children:[
+      {path: ':id', component: ModulesComponent}
+    ]
   },
   {
     path: 'exercices',
